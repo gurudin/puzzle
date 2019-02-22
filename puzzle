@@ -1,0 +1,46 @@
+#!/usr/bin/env php
+<?php
+/*
+ * This file is part of Flarum.
+ *
+ * (c) Toby Zerner <toby.zerner@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+require 'vendor/autoload.php';
+
+(new Puzzle\Console\Console())->listen();
+// use Symfony\Component\Console\Command\Command;
+// use Symfony\Component\Console\Input\InputInterface;
+// use Symfony\Component\Console\Output\OutputInterface;
+// use Symfony\Component\Console\Input\InputArgument;
+// use Symfony\Component\Console\Input\InputOption;
+// use Symfony\Component\Console\Application;
+
+// class Helper extends Command
+// {
+//     public function __construct()
+//     {
+//         parent::__construct();
+//     }
+
+//     protected function configure()
+//     {
+//         $this
+//             ->setName('generate:migration')
+//             ->setDescription('Generate a migration');
+//     }
+
+//     protected function execute(InputInterface $input, OutputInterface $output)
+//     {
+//         $output->writeln("<comment>111</comment>");
+//     }
+// }
+
+
+
+// $application = new Application();
+// $application->addCommands([new Helper(), new Create]);
+// $application->run();
