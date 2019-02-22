@@ -1,0 +1,18 @@
+{
+    "name": "gurudin/puzzle",
+    "keywords": [
+        "forum",
+        "discussion"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "gurudin/puzzle-core": "dev-master"
+    },
+    "repositories": {
+        "gurudin": {
+            "type": "path",
+            "url": "../puzzle-core"
+        }
+    }
+}
