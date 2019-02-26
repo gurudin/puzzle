@@ -14,6 +14,7 @@ require 'vendor/autoload.php';
 $console = new Puzzle\Console\Console([
     'base'   => __DIR__,
     'public' => __DIR__ . '/public',
+    'config' => __DIR__ . '/config',
 ]);
 
 $console->listen();
